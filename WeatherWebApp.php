@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-			$ApiUrl = "https://api.weatherlink.com/v1/NoaaExt.json?user=001D0AE08B95&pass=10150319!Mg&apiToken=E33543E468A04D80B93A78082E33D173";
+			$ApiUrl = "https://api.weatherlink.com/v1/NoaaExt.json?user=USERNAME&pass=PASSWORDMg&apiToken=E33543E468A04D80B93A78082E33D173";
 			$ch = curl_init();
 			curl_setopt($ch, CURLOPT_HEADER, 0);
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
